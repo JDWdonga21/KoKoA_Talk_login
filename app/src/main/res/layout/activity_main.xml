@@ -23,12 +23,14 @@
 
 
     <EditText
+        android:id="@+id/kokoa_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="코코아메일 아이디, 이메일, 전화번호"
         android:minHeight="48dp" />
 
     <EditText
+        android:id="@+id/kokoa_pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호"
@@ -43,6 +45,7 @@
         />
 
     <android.widget.Button
+        android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FAED32"
