@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
             val inputId = kokoa_id.text.toString()
             val inputPw = kokoa_pw.text.toString()
             if(inputId == myUserId && inputPw == myUserPw){
-               Toast.makeText(this, "관리자 입니다.",  Toast.LENGTH_SHORT).show()
+                val name = "안드로이드 쿠쿠"
+
+               Toast.makeText(this, "${name} 입니다.",  Toast.LENGTH_SHORT).show()
             }
             else{
                 Toast.makeText(this, "로그인 실패",  Toast.LENGTH_SHORT).show()
